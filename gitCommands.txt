@@ -1,0 +1,25 @@
+Git Status : To check what file are in which status like whether they are added to local environment or not.
+
+Git init : To initialise an empty repository.
+
+Git checkout -b "abc" : To create a new branch with name abc.
+
+Git checkout abc : To switch from other branch to abc branch.
+
+Git add "file1" : To add the selected file file1 to the local environment.
+
+Git add . : To select all the files present in the folder to add in local environment.
+
+Git Commit -m "My Message" : To Commit files in the selected branch with the message My Message.
+
+Git push -u origin main : To push directly in the main branch.
+
+Git push -u origin abc : To push int the abc branch.
+when pushing in branches make sure you be or present in the same branch for adding and commiting.
+If we have added and commited files in abc branch and aksing to push in master branch then gives error.
+
+If in case there is an extra file in new branch and want ot get that to the main branch
+then first switch to master brannch and use the below command
+
+git checkout branchname -- filename
+
